@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.BorderPane?>
 
 <BorderPane fx:id="anaPencere" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
@@ -24,4 +26,10 @@
    <left>
       <ListView fx:id="filmListesi" prefHeight="575.0" prefWidth="354.0" BorderPane.alignment="CENTER" />
    </left>
+   <bottom>
+      <Label fx:id="labelCikisTarihi" prefHeight="74.0" prefWidth="454.0" text="Label" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <TextArea fx:id="txtAreaFilmDetay" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
 </BorderPane>
